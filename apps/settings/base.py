@@ -3,7 +3,7 @@ import os
 try:
     from apps.settings.local_settings import SECRET_KEY
 except ImportError:
-    pass
+    SECRET_KEY = "*" * 50
 
 
 BASE_DIR = os.path.join(
@@ -13,7 +13,7 @@ BASE_DIR = os.path.join(
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["18.176.60.67"]
 
 # Application definition
 
