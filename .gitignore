@@ -1,2 +1,5 @@
 venv/*
 .idea/*
+.DS_STORE
+*.pyc
+local_settings.py
